@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: url('../icons/foggy-forest-01.jpg');
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 1313px;
+  margin-top: 100px;
+}
+
+.header {
+  width: 223px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  transition: all ease 0.3s;
+}
+
+.lot_to_kir {
+  text-decoration: none;
+  display: block;
+  transition: all ease 0.3s;
+}
+
+.lot_to_kir:hover {
+  fill: rgba(53, 51, 51, 0.931);
+  transform: translateX(5px);
+}
+
+.lot_to_kir:active {
+  transform: translateX(15px);
+}
+
+.kir_to_lot {
+  text-decoration: none;
+  display: block;
+  transition: all ease 0.5s;
+}
+
+.kir_to_lot:hover {
+  fill: rgba(53, 51, 51, 0.931);
+  transform: translateX(-5px);
+}
+
+.kir_to_lot:active {
+  transform: translateX(-15px);
+}
+
+.arrow2 {
+  transform: rotateY(180deg);
+}
+
+.clear {
+  display: block;
+  transition: all ease 0.3s;
+}
+
+.clear:hover {
+  fill: rgba(53, 51, 51, 0.931);
+  transform: scale(1.1)
+}
+
+.clear:active {
+  transform: scale(0.9)
+}
+
+#lotin {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  resize: none;
+  width: 600px;
+  height: 400px;
+  outline: none;
+  background-color: rgba(61, 61, 61, 0.623);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 20px;
+  border: none;
+  transition: all ease 0.3s;
+  border: 1px solid transparent;
+}
+
+#lotin::placeholder {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.411);
+}
+
+#lotin:focus {
+  background-color: rgba(146, 146, 146, 0.623);
+  border: 1px solid black;
+}
+
+#kiril::placeholder {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.411);
+}
+
+#kiril {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  resize: none;
+  width: 600px;
+  height: 400px;
+  outline: none;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(61, 61, 61, 0.623);
+  backdrop-filter: blur(5px);
+  border: none;
+  transition: all ease 0.3s;
+  border: 1px solid transparent;
+}
+
+#kiril:focus {
+  background-color: rgba(146, 146, 146, 0.623);
+  border: 1px solid black;
+}
+
+.middle {
+  margin: 0 15px;
+}
+
+.margin-top {
+  margin-top: 65px;
+}
